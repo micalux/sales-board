@@ -1,0 +1,112 @@
+html, body {
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 900px;
+    margin: 60px auto;
+    color: #FBFBFB;
+    background-color: #201A23;
+    border: #201A23 solid 3px;
+}
+
+h1 {
+    font-size: 48px;
+    padding-top: 55px;
+}
+
+img {
+    width: 220px;
+    border-radius: 100%;
+    border: 10px solid #44354A;
+    margin: 0 auto;
+}
+
+button {
+    width: 188px;
+    height: 80px;
+    background-color: #9E4770;
+    font-size: 45px;
+    border: none;
+    border-radius: 7%;
+    margin: 25px 3px 10px 3px;
+}
+
+button:hover {
+    background-color: #913b63;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 35px auto 10px auto;
+}
+
+#live-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#achievements-field, #sales-field {
+    min-height: 45px;
+    margin: 0 auto;
+    font-size: 32px;
+    border-radius: 40px;
+    padding: 15px 25px;
+    text-align: left;
+}
+
+.field {
+    background-color: #44354A;
+}
+
+#total-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    width: 85%;
+}
+
+#tot-revenue, #tot-commission {
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 40px;
+    padding: 20px 0px;
+    margin: 0 auto 10px auto;
+    height: 50px;
+    width: 375px;
+} 
+
+#reset-button {
+    color: #FBFBFB;
+    font-size: 25px;
+    padding: 13px 26px;
+    width: 170px;
+    height: auto;
+    margin: 45px 15px 70px;
+}
+
+#toggle-button {
+    color: #FBFBFB;
+    font-size: 25px;
+    padding: 13px 26px;
+    width: 170px;
+    height: auto;
+    margin: 45px 15px 70px;
+    background-image: linear-gradient(45deg, #9E4770, #44354A);
+}
+
+.dark-mode {
+    background-color: white;
+    color: #201A23;
+    border: #201A23 solid 3px;
+  }
+
+  .dark-mode-alt {
+    background-color: #a592ac;
+  }
+
+

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <body>
+        <div id="container" class="container">
+            <h1>Salesboard 🔔</h1>
+            <img src="images/mic.jpg" alt="profile-image">
+            <div>
+                <button id="a-product-button">⭐</button>
+                <button id="b-product-button">🔥</button>
+            </div>
+            <section id="live-container">
+                <h3 id="sales-number">Live Sales - 0</h3>
+                <p class="field" id="sales-field"></p>
+                <h3 id="achievements-number">Live Achievements - 0</h3>
+                <p class="field" id="achievements-field"></p>
+            </section>
+            <section id="total-container">
+                <div class="total">
+                    <h3>Total Revenue</h3> 
+                    <p class="field" id="tot-revenue"></p>
+                </div>
+                <div class="total">
+                    <h3>Total Commission</h3> 
+                    <p class="field" id="tot-commission"></p>
+                </div>
+            </section>
+            <button id="reset-button">reset</button>
+            <button id="toggle-button">dark/light</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
